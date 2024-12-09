@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-from looping import happy_new_year, square_integers, fizzbuzz
-
-import io
+import io  
 import sys
+from lib.looping import happy_new_year, square_integers, fizzbuzz
 
 class TestHappyNewYear:
     '''happy_new_year() in looping.py'''
